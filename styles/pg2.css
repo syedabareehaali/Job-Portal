@@ -1,0 +1,168 @@
+@font-face{
+	font-family: montserrat-bold;
+     src: url('../fonts/Montserrat/montserrat-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+	font-family: montserrat-regular;
+	src: url('../fonts/Montserrat/montserrat-Regular.ttf') format('truetype');
+}
+
+
+@font-face{
+	font-family: segoe-emoji;
+     src: url('../fonts/segoe-ui-emoji/seguiemj.ttf') format('truetype');
+}
+
+
+.quotation{
+	background:url('../images/background.jpeg');
+	background-size:cover;
+	margin-top:140px;
+}
+
+.quotation div p {
+	text-align:center;
+	color:#0e4618;
+	line-height:1.9;
+	font-family: montserrat-regular;
+	font-weight:1000;
+	font-size: 16px;
+    margin-left: 12%;
+    padding: 4px 6px 120px;
+}
+
+
+.quotation div img{
+	display: block;
+	margin: 3% 3% 1% 53%;
+	filter: drop-shadow(3px 3px 3px green);
+}
+
+.FAQ{
+	margin-bottom: 5%;
+}
+
+.FAQ h2{
+    text-align: center;
+    font-size: 40px;
+	color: #5e5d5d;
+	padding-bottom: 5%;
+}
+
+
+.collapsible {
+	font-family: montserrat-regular;
+      background-color:  #da95b6;
+  color: white;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+      background-color: #e7c8e2;
+	  color: black;
+}
+
+
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-family: segoe-emoji;
+  font-size:20px;
+}
+
+.FAQ button{box-sizing:border-box;
+	  font-size:20px;
+	  font-family:segoe-emoji;
+}
+
+
+.FAQ h3{
+	text-align: center;
+    color: #021c39;
+    font-size: x-large;
+	font-family: montserrat-bold;
+    font-weight: 700;
+}
+
+
+  .testinomals{
+	      border-radius: 50px;
+	border: 5px solid #021c39;
+    text-align: center;
+	background-color: antiquewhite;
+    padding: 3%;
+    margin: 4% 0;
+  }
+
+
+.testinomals .avatar-img  {
+    margin: auto;
+    float: none;
+    display: block;
+	border: 3px black solid;
+	border-radius: 100%;
+  }
+
+
+.testinomals h4 {
+    font-size: 20px;
+	font-family:segoe-emoji;
+	font-weight:bold;
+}
+
+
+
+  
+  .testinomal h3{
+	  text-align:center;
+	  font-size: 40px;
+	 color:#021c39;
+	 font-family: montserrat-bold;
+	 
+	 
+  }
+ 
+  .testinomal p{
+	  font-size:25px;
+	  font-family: segoe-emoji;
+  }
+  
+ 
+  
+
+
+
+* {
+    box-sizing: inherit;
+}
+
+
+
+
+
+.rating-box ul li{
+	list-style-type:none;
+	display:inline-block;
+	width:10%;
+}
+
+.rating-box ul{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.rating-box ul li img{
+	width:30%;
+}
+
+
